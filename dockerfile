@@ -7,6 +7,7 @@ WORKDIR /app
 
 # will execute npm install in /home/app because of WORKDIR
 RUN npm install
+RUN npm start
 
 # no need for /home/app/server.js because of workdir
 CMD node server.js
