@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My App</title>
+    <script>
+      function handleSaveTask() {
+        ulEl = document.getElementById("tasks");
+        inputEl = document.getElementById("task");
+
+        liEl = document.createElement("li");
+        liEl.textContent = inputEl.value;
+        ulEl.appendChild(liEl);
+      }
+    </script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <label>Add Task</label>
+      <input id="task" type="text" placeholder="new task" />
+      <button onclick="handleSaveTask()">Save</button>
+
+      <ul id="tasks"></ul>
+    </div>
+  </body>
+</html>
