@@ -1,13 +1,4 @@
 
-Conversation starred. None selected
-
-Skip to content
-Using Gmail with screen readers
-Conversations
-9.51 GB of 15 GB used
-Terms · Privacy · Program Policies
-Last account activity: 21 minutes ago
-Details
 pipeline {
     
     agent any
